@@ -5,7 +5,7 @@
   <img src="https://img.shields.io/badge/Docker-Enabled-blue.svg" alt="Docker" />
 </p>
 
-<h1 align="center">🩺 Diabetes Prediction API</h1>
+<h1 align="center">🩺 Diabetes Prediction API uding FastAPI</h1>
 
 ---
 
