@@ -3,7 +3,6 @@
   <img src="https://img.shields.io/badge/Framework-FastAPI-green.svg" alt="FastAPI" />
   <img src="https://img.shields.io/badge/Machine%20Learning-scikit--learn-orange.svg" alt="scikit-learn" />
   <img src="https://img.shields.io/badge/Docker-Enabled-blue.svg" alt="Docker" />
-  <img src="https://img.shields.io/badge/License-MIT-lightgrey.svg" alt="License" />
 </p>
 
 <h1 align="center">🩺 Diabetes Prediction API</h1>
@@ -54,12 +53,14 @@ diabetes-prediction-api/
 - The prediction model is trained using **scikit-learn**
 - It is a supervised classification model trained on a diabetes dataset
 - Input features represent common clinical indicators, including:
+  - Height
+  - Weight
   - Pregnancies
   - Glucose
   - Blood Pressure
   - Skin Thickness
   - Insulin
-  - BMI
+  - BMI (Calculated from weight and height attribute)
   - Diabetes Pedigree Function
   - Age
 - The model outputs a **binary classification result**:
@@ -122,7 +123,7 @@ FastAPI automatically generates interactive API documentation:
 
 The Docker image for this project is available on Docker Hub:
 
-🔗 https://hub.docker.com/r/chiragminds/diabetes-prediction-api
+🔗 https://hub.docker.com/r/chirag1415/diabetes-prediction-api
 
 ### Pull the Image
 
