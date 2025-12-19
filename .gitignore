@@ -1,7 +1,23 @@
+# Python
 __pycache__/
+*.pyc
+*.pyo
+*.pyd
 .env
+venv/
+myenv/
+
+# ML models
+*.pkl
+*.joblib
+*.h5
 *.pt
 *.pth
-*.ckpt
+
+# Logs & data
+logs/
 data/
-outputs/
+
+# OS
+.DS_Store
+Thumbs.db
